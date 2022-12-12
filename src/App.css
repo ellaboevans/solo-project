@@ -114,7 +114,7 @@
   }
 
 
-@media (min-width: 375px) {
+@media (min-width: 340px) {
   .card {
     width: 95%;
     margin: 2rem auto;
