@@ -1,9 +1,15 @@
+import twitter from "../src/assets/twitter-removebg-preview.png";
+import facebook from "../src/assets/facebook-removebg-preview.png";
+import instagram from "../src/assets/instagram-removebg-preview.png";
+import linkedin from "../src/assets/linkedin-removebg-preview.png";
+import github from "../src/assets/github.svg";
+
 export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer-icon--container">
         <img
-          src="./src/assets/twitter-removebg-preview.png"
+          src={twitter}
           class="footer-icon"
           width={50}
           alt=""
@@ -12,7 +18,7 @@ export default function Footer() {
 
       <div className="footer-icon--container">
         <img
-          src="./src/assets/linkedin-removebg-preview.png"
+          src={facebook}
           class="footer-icon"
           width={50}
           alt=""
@@ -21,7 +27,7 @@ export default function Footer() {
 
       <div className="footer-icon--container">
         <img
-          src="./src/assets/instagram-removebg-preview.png"
+          src={instagram}
           class="footer-icon"
           width={50}
           alt=""
@@ -30,7 +36,7 @@ export default function Footer() {
 
       <div className="footer-icon--container">
         <img
-          src="./src/assets/linkedin-removebg-preview.png"
+          src={linkedin}
           class="footer-icon"
           width={50}
           alt=""
@@ -38,7 +44,7 @@ export default function Footer() {
       </div>
       <div className="footer-icon--container">
         <img
-          src="./src/assets/github.svg"
+          src={github}
           class="footer-icon"
           width={50}
           alt=""
