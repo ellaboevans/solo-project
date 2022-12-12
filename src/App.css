@@ -135,8 +135,9 @@
     margin-bottom: 0;
   }
   .footer {
+    justify-content: center;
     gap: 0.8rem;
-    padding: 2rem 0 2rem 2rem;
+    padding: 2rem;
     margin-top: 1.5rem;
   }
   .footer-icon:hover {
